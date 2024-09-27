@@ -1,28 +1,29 @@
 <html>
     <head>
         <script>
-            let doIt=() => {
-                inputText=document.getElementById("userInput").value;
+           function calculate multiples(){
+               let sum=0;
+               for (let i=1; i<1000; i++){
+                    if(i%3===0 || i%5===0)
+                    sum + =i;
+               }
 
-                if((inputText)>15)
-            {
-                alert("baggage exceeds")
+           }
+
+             document.getElementById('result').innerText("the sum of multiples of 3 and 5 below 1000 is:" +sum;
 
 
-            } 
-            else
-            {
-                alert("baggage is correct")
-            }
-        
-        }
+
+
+
+       
             
             
          </script>
         </head>
     <body>
         <input type="number" id="userInput">
-        <button onclick="doIt()">pressme</button>
+        <button onclick="doIt()">pressme</button
     
     </body>
 </html>
