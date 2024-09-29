@@ -26,7 +26,7 @@ function sumofMultiples(a,b,n)
     return sum;
 }
 
-function calculate()
+function calculate ()
 {
     const a = parseInt(document.getElementaryById('a').value);
     const b = parseInt(document.getElementaryById('b').value);
