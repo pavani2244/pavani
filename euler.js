@@ -11,7 +11,7 @@ function sumofMultiples(a,b,n)
         if (i % a === 0 || i % b === 0) {
             sum += i;
         }
-        
+
     }
     return sum;
 }
@@ -24,7 +24,7 @@ function calculate ()
 
     const result = sumofMultiples(a, b, n);
 
-    alert("The sum of multiples of numbers ${a} or ${b} below ${n} is: ${result}");
+    alert('The sum of multiples of numbers ${a} or ${b} below ${n} is: ${result}');
 }
 
 
