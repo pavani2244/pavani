@@ -2,18 +2,7 @@ a=3;
 b=5;
 n=1000;
 
-function sumofMultiplesofThreeandFiveLessThanAThousand()
-{
-    let sum = 0;
-    for ( let i = 0; i<1000; i++){
-        if (i%3 == 0 || i%5 ==0){
-            sum = sum+1;
 
-        }
-    }
-    alert("The answer is"  + sum)
-
-}
 
 function sumofMultiples(a,b,n)
 {
@@ -22,6 +11,7 @@ function sumofMultiples(a,b,n)
         if (i % a === 0 || i % b === 0) {
             sum += i;
         }
+        
     }
     return sum;
 }
