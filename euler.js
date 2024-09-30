@@ -1,3 +1,4 @@
+alert("loaded Euler Js");
 a=3;
 b=5;
 n=1000;
@@ -6,6 +7,7 @@ n=1000;
 
 function sumofMultiples(a,b,n)
 {
+
     let sum = 0;
     for (let i = 1; i < n; i++) {
         if (i % a === 0 || i % b === 0) {
