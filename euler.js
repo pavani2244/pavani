@@ -27,7 +27,27 @@ function calculate ()
     const result = sumofMultiples(a, b, n);
 
     alert('The sum of multiples of numbers ${a} or ${b} below ${n} is: ${result}');
+
+    document.getElementById('a').style.display = 'none';
+    Document.getElementById('b').style.display = 'none';
+    document.getElementById('n').style.display = 'none';
+    document.getElementById('calculateButton').style.display = 'none';
+    document.getElementById('sum').style.display = 'block';
+    document.getElementById('label1').style.display = 'none';
+    document.getElementById('label2').style.display = 'none';
+    document.getElementById('label3').style.display = 'none';
+}
+
+Function showInput() 
+{
+    document.getElementById('a').style.display = 'block';
+    document.getElementById('b').style.display = 'block';
+    document.getElementById('n').style.display = 'block';
+    document.getElementById('sum').style.display = 'none';
+    document.getElementById('label1').style.display = 'block';
+    document.getElementById('label2').style.display = 'block';
+    document.getElementById('label3').style.display = 'block';
 }
 
 
-    
+
