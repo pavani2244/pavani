@@ -1,7 +1,7 @@
 let f1 =  (basket,prices)=> {
     let totalcost = 0;
     for(let item in basket){
-        if(prices[item] ! = undefined){
+        if(prices(item] !  undefined){
             totalcost  +=basket[item] * prices[item];
         }
     }
